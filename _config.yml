@@ -19,10 +19,9 @@ avatar: https://pp.vk.me/c403529/v403529707/5302/4LhFpzYEB4E.jpg
 footer-links:
   dribbble:
   email: al.ulianov@gmail.com
-  facebook: 
-  vk: https://vk.com/id15073707
+  facebook: https://www.facebook.com/profile.php?id=100001768056957
   flickr:
-  github: DonRai/donrai.github.io
+  github: DonRai
   instagram:
   linkedin:
   pinterest:
@@ -42,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://weblime.ru
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
