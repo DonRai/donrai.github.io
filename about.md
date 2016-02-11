@@ -7,4 +7,4 @@ permalink: /about/
 
 ### Связь с автором
 
-[email@domain.com](mailto:al.ulianov@gmail.com)
+[al.ulianov@gmail.com](mailto:al.ulianov@gmail.com)
