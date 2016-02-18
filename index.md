@@ -1,4 +1,4 @@
 ---
-layout: page
+layout: default
 title: Blogging Like a Hacker
 ---
