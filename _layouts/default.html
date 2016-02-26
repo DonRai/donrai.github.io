@@ -41,8 +41,8 @@
   
         {% for post in site.posts %}
         <div>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p style="color:#909090"><i>{{ post.date | date: "%B %e, %Y" }}</i></p><br />
+          <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+          <p style="color:#909090"><i>{{ post.date | date: "%B %e, %Y" }}</i></p>
         </div>
         {% endfor %}
 
