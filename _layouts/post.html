@@ -1,17 +1,35 @@
 ---
-layout: page2
+layout: posts
 ---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+  <header class="post__header">
+    <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
+    <div class="post__meta">
+      <a href="/author/{{ page.author }}" class="post__meta_item">
+        <i class="fa fa-pencil"></i>
+        {{ page.author_name }}
+      </a>
 
-  <div class="entry">
+      <a href="/type/{{ page.type }}" class="post__meta_item">
+        {% include article__icon.html %}
+        {% include article__type.html %}
+      </a>
+
+      <span class="post__meta_item">
+        <i class="fa fa-calendar-o"></i>
+        {% include date.html %}
+      </span>
+    </div>
+  </header>
+
+  <div class="post__content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  <footer class="post__footer">
+    {% include tags-cloud.html %}
+    {% include post__pagination.html %}
+	</footer>
 
-  {% include disqus.html %}
 </article>

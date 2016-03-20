@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  {% include head.html %}
+<body>
+{% include header.html %}
+
+<main class="page-content">
+
+  <div class="author">
+    <div class="author__image">
+      <img src="{{ page.pic }}" alt="author__avatar" class="author__avatar">
+    </div>
+
+    <div class="author__description">
+      <h2 class="author__title">{{ page.author_name }}</h2>
+      <p>{{ page.description }}</p>
+        
+      <div class="author__links">
+        {% if page.github %}
+          <a class="author__links_icon" href="{{ page.github }}"><i class="fa fa-github"></i></a>
+        {% endif %}
+
+        {% if page.vk %}
+          <a class="author__links_icon" href="{{ page.vk }}"><i class="fa fa-vk"></i></a>
+        {% endif %}
+
+        {% if page.email %}
+          <a class="author__links_icon" href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i></a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+        
+  {% for post in site.posts %}
+    {% if page.author == post.author %}
+      {% include article.html %}
+    {% endif %}
+  {% endfor %}
+</main>  
+
+
+{% include footer.html %}
+</body>
+</html>

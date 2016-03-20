@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %}
+</head>
+<body>
+	
+	{% include header.html %}
+
+<main class="page-content">
+
+	<div class="tag-search">
+		 Материалы по тегу: 
+     <a href="/tag/{{ page.tag }}" class="tags-cloud__tag">
+      <span class="tag__icon"><i class="fa fa-tag"></i></span>
+      <span class="tag__text">{{ page.tag }}</span>
+    </a> 
+	</div>
+
+	{% for post in site.tags[page.tag] %}
+		{% include article.html %}
+	{% endfor %}
+
+</main>
+
+{% include footer.html %}
+</body>
+</html>

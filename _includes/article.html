@@ -1,0 +1,59 @@
+<article class="article">
+
+  <!-- Article Header Begin -->
+  <header class="article__header">
+
+    <h2 class="title">
+      <a class="title__link title__link--{{ post.type }}" href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <div class="date">
+      <span class="date__icon">
+        <i class="fa fa-calendar-o"></i>
+      </span>
+
+      <span class="date__text">
+        {% include date.html %}
+      </span>
+    </div>
+
+  </header>
+  <!-- Article Header End -->
+
+
+  <!-- Article Body Begin -->
+  <div class="article__body">
+    <p class="description">{{post.description}}</p>
+  </div>
+  <!-- Article Body End -->
+
+
+  <!-- Article Footer Begin -->
+  <footer class="article__footer">
+  
+    {% include tags-cloud.html %}
+
+    <div class="meta">
+
+      <a class="meta__item" href="/author/{{ post.author }}">
+        <span class="meta__item_icon">
+          <i class="fa fa-pencil"></i>
+        </span>
+
+        <span class="meta__item_text">
+          {{ post.author_name }}
+        </span>
+      </a>
+
+      <a class="meta__item meta__item--{{ post.type }}" href="/type/{{ post.type }}">
+        <span class="meta__item_icon">{% include article__icon.html %}</span>
+        <span class="meta__item_text">{% include article__type.html %}</span>
+      </a>
+
+    </div>
+  </footer>
+  <!-- Article Footer End -->
+
+</article>
