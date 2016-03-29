@@ -22,7 +22,7 @@ tags: [git, github]
 
 <table>
   <tr>
-    <td><strong>Репозиторий&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+    <td><strong>Репозиторий&nbsp;&nbsp;&nbsp;</strong></td>
     <td><strong>Онлайн&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
     <td><strong>Макет&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
     <td><strong>Участник</strong></td>
@@ -52,7 +52,7 @@ tags: [git, github]
     <td>Сардов Никита</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/mironovpib101/Ok/tree/gh-pages/v3">github/mironovpib101</a></td>
+    <td><a href="https://github.com/mironovpib101/Ok/tree/gh-pages/v3">github/mironovpib101</a>&nbsp;&nbsp;&nbsp;</td>
     <td><a href="https://github.com/WFS-1/frontend-school/blob/master/psd/hard-3/7.psd">7.psd</a></td>
     <td><a href="http://mironovpib101.github.io/Ok/v3/">онлайн</a></td>
     <td>Миронов Олег</td>
