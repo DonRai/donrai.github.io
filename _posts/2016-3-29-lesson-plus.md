@@ -18,7 +18,12 @@ tags: [git, github]
 Сделать это важно.
 <br />
 А вот список работ.
-<table>
+
+<style>
+ .table tr{border-bottom: 1px solid #eee;}
+ .table td{padding 0 5px;}
+</style>
+<table class="table">
   <tr>
     <td>Репозиторий</td>
     <td>Онлайн</td>
@@ -65,17 +70,17 @@ tags: [git, github]
     <td>Гимранов Марсель</td>
   </tr>
   <tr>
-    <td>[github](https://github.com/gitwood/test3/tree/gh-pages">github/gitwood</a></td>
+    <td><a href="https://github.com/gitwood/test3/tree/gh-pages">github/gitwood</a></td>
     <td><a href="http://gitwood.github.io/test3/">онлайн</a></td>
     <td>Останкова Елена</td>
   </tr>
   <tr>
-    <td>[github](https://github.com/dneposeda/site2">github/dneposeda</a></td>
+    <td><a href="https://github.com/dneposeda/site2">github/dneposeda</a></td>
     <td><a href="http://dneposeda.github.io/site2/">онлайн</a></td>
     <td>Тивиков Денис</td>
   </tr>
   <tr>
-    <td>[github](https://github.com/ismwh/psd-1">github/ismwh</a></td>
+    <td><a href="https://github.com/ismwh/psd-1">github/ismwh</a></td>
     <td><a href="http://ismwh.github.io/psd-1/">онлайн</a></td>
     <td>Литвинов Дмитрий</td>
   </tr>
