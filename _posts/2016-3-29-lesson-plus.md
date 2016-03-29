@@ -23,7 +23,7 @@ tags: [git, github]
     <td>Участник</td>
   </tr>
   <tr>
-    <td>[github](https://github.com/katerinatlt/lesson-3/tree/gh-pages)</td>
+    <td><a href="https://github.com/katerinatlt/lesson-3/tree/gh-pages">github</a></td>
     <td>[online](http://katerinatlt.github.io/lesson-3/)</td>
     <td>Кураева Екатерина</td>
   </tr>
