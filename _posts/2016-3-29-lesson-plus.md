@@ -19,15 +19,12 @@ tags: [git, github]
 <br />
 А вот список работ.
 
-<style type="text/css">
- .table tr{border-bottom: 1px solid #eee;}
- .table td{padding 0 5px;}
-</style>
-<table class="table">
+
+<table>
   <tr>
-    <td>Репозиторий</td>
-    <td>Онлайн</td>
-    <td>Участник</td>
+    <td><strong>Репозиторий&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+    <td><strong>Онлайн&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+    <td><strong>Участник</strong></td>
   </tr>
   <tr>
     <td><a href="https://github.com/katerinatlt/lesson-3/tree/gh-pages">github/katerinatlt</a></td>
