@@ -1,7 +1,7 @@
 ---
 layout: author
 author: DonRai
-permalink: /author/donrai/
+permalink: /author/DonRai/
 
 author_name: "Алексей Ульянов"
 pic: "/images/authors/donrai.jpg"
