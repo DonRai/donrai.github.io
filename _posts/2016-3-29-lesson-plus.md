@@ -19,7 +19,7 @@ tags: [git, github]
 <br />
 А вот список работ.
 
-<style>
+<style type="text/css">
  .table tr{border-bottom: 1px solid #eee;}
  .table td{padding 0 5px;}
 </style>
